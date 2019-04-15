@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  
+  <test name="Smoke Test">
+	<groups>
+		<run>
+			<include name = "Smoke"></include>
+			<include name = "Sanity"></include>
+		</run>
+	</groups>
+	
+	<classes>
+		<class name="testNG.TestNG"/>	
+		<class name="testNG.TestNG_2"/>	
+		<class name="testNG.TestNG_3"/>	
+		<class name="testNG.TestNG_4"/>	
+	</classes> 
+  </test> 
+  
+</suite>

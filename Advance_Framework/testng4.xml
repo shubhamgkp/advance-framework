@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<!-- <parameter name="URL" value="www.facebook.com"></parameter> -->
+	<test name="Loan Department">
+		<parameter name="URL" value="www.loandept.com"></parameter>
+		<classes>
+			<class name="testNG.TestNG_4">
+			</class>
+		</classes>
+
+	</test>
+
+	<test name="Banking Department">
+		<parameter name="URL" value="www.bankingdept.com"></parameter>
+		<parameter name="API Key" value="Shubham"></parameter>
+		<classes>
+			<class name="testNG.TestNG_5"></class>
+		</classes>
+	</test>
+
+</suite>

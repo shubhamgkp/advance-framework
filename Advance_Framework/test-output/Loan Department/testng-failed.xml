@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <test thread-count="5" name="All Test Case(failed)">
+    <classes>
+      <class name="testNG.TestNG_2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="personalLoan"/>
+        </methods>
+      </class> <!-- testNG.TestNG_2 -->
+      <class name="testNG.TestNG">
+        <methods>
+          <include name="demo"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="prerequisite"/>
+          <include name="beforeClass"/>
+          <include name="lastexecute"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNG.TestNG -->
+      <class name="testNG.TestNG_3">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="WebCarLoan"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testNG.TestNG_3 -->
+    </classes>
+  </test> <!-- All Test Case(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
